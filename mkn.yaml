@@ -1,0 +1,12 @@
+
+
+name: aws.cpp_sdk
+
+property:
+  net.curl.version: master
+
+inc: inst/include
+lib: inst/lib
+
+dep:
+  - name: net.curl
